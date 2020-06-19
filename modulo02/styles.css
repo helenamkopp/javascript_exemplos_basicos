@@ -1,5 +1,7 @@
 /* Importante seguir a ideia de cascata - ela é mais forte do que a ideia global*/
 
+/* Estilo da pagina principal */
+
 :root {
     --color-green: #50fa7b;
 }
@@ -74,4 +76,25 @@ header{
 
 #links-footer a{
     border-bottom: 1px solid var(--color-green);
+}
+
+/* Estilo dos cards */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #6b304b;
+}
+
+
+.card__image-container img {
+    width: 100%;
+}
+
+.card__content, 
+.card__info {
+    padding: 24px;
 }
