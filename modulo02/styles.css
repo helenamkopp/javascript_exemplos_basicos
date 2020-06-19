@@ -1,0 +1,77 @@
+/* Importante seguir a ideia de cascata - ela é mais forte do que a ideia global*/
+
+:root {
+    --color-green: #50fa7b;
+}
+
+*{ /* zerando tudo que tem na pagina html*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #282a36;
+}
+
+header{
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background:rgba(0, 0, 0, 0.418) ;
+}
+.links {
+    text-align: center;
+}
+.links a { /*referenciando uma classe no css - .links a (TUDO VAI FICAR IGUAL)*/
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;;
+}
+.links a:hover {
+    color: var(--color-green);
+    transition: color 500ms;
+}
+
+#wrapper{ /* essa # significa que eu to pegando o ID wrapper */
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img{
+    border-radius: 200px 45px;
+    border: 1px solid  #0e0564;
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+#wrapper h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+    font-family: 'MuseoModerno', cursive;
+}
+
+#wrapper h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    font-family: 'MuseoModerno', cursive;
+    margin-top: 8px;
+}
+
+#wrapper p{
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+    font-family: 'MuseoModerno', cursive;
+    margin-top: 8px;
+}
+
+#links-footer a{
+    border-bottom: 1px solid var(--color-green);
+}
